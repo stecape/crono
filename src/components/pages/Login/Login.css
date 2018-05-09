@@ -36,3 +36,11 @@
   /* Use the Roboto font that is loaded in the <head> */
   font-family: 'Roboto', sans-serif;
 }
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

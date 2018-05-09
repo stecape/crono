@@ -22,7 +22,7 @@ export default class Login extends React.Component {
   render () {
     var image = window.location.origin + "/g-normal.png"
     return (
-      <div>
+      <div className="page">
         <GoogleLogin socialId="828427357877-bd7ckf1hb25vfq31jfg4veiobgh7gobd.apps.googleusercontent.com"
           className="customBtn"
           scope="profile https://www.google.com/m8/feeds/"
