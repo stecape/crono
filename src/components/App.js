@@ -14,7 +14,7 @@ import Login from './pages/Login/Login'
 
 class App extends Component {
 	state = {
-		LoggedIn: true
+		LoggedIn: false
 	}
 
   render() {
